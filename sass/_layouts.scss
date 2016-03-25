@@ -1,0 +1,10 @@
+// Definition of all layout elements
+
+.jumbotron {
+    position: relative;
+    background: url("../../img/laptop_dk.jpg") center center;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+    min-height: 500px;
+}

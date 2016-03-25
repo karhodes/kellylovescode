@@ -1,0 +1,15 @@
+// Definition of all fonts
+
+// Imports
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+
+// Styles
+.jumbotron h1 {
+    color: #ED18B7;
+    font-family: 'Pacifico', cursive;
+    text-align: center;
+    font-size: 90px;
+    margin-top: 100px;
+    //background-color: rgba(0,0,0,0.5);
+    width: 100%;
+}
