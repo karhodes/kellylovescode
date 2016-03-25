@@ -1,4 +1,11 @@
-﻿// style.scss : Import scss partials
+﻿// style.scss : Import scss partials and Define variables
+
+// Variables *****************************************
+$pink : #FF3366;
+$orange : #FF6633;
+$black : #000300;
+$gray : #AFB0B1;
+$white : #FFFFFF;
 
 // Vendor Dependencies *****************************************
 @import "bootstrap";
@@ -10,5 +17,5 @@
 @import "layouts";
 
 // Page specific elements ***************************************
-// @import "home";
+@import "home";
 // @import "artist-details";

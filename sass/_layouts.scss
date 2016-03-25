@@ -24,18 +24,28 @@
 
 .jumbotron {
     position: relative;
-    // position: absolute;
-    // top:0px;
     padding-top:0px;
     background: url("../../img/laptop_dk.jpg") center center;
     width: 100%;
     background-size: cover;
     overflow: hidden;
     min-height: 650px;
-    border-bottom: 20px solid #FF3366;
+    border-bottom: 20px solid $pink;
+    margin-bottom:0px;
 }
 
-.pink_bar{
+footer {
 	min-height:100px;
-	background-color:#FF3366;
+	background-color:$black;
 }
+
+#social_media, #footer_text {
+	padding:20px 0;
+	text-align: center;
+}
+
+.social_media_icon {
+	padding: 10px;
+	margin: 5px;
+}
+

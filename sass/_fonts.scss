@@ -2,15 +2,17 @@
 
 // Imports
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
-@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,700);
 
 // Styles
 body{
-	font-family: 'Alegreya Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	color:$black;
 }
 
 .jumbotron h1 {
-    color: #FF3366;
+    color: $pink;
     font-family: 'Pacifico', cursive;
     text-align: center;
     font-size: 90px;
@@ -20,7 +22,19 @@ body{
 }
 
 .navbar-nav > li > a {
-	color: #FF3366;
+	color: $pink;
 	font-size: 20px;
+}
 
+footer {
+	color: $white;
+}
+
+// Font-Awesome
+.fa {
+	color:$pink;
+}
+
+.fa:hover {
+	color:$orange;
 }
