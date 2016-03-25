@@ -1,0 +1,28 @@
+{
+  "name": "kellyrhodesdev",
+  "homepage": "https://github.com/karhodes/kellyrhodesdev",
+  "authors": [
+    "Kelly Rhodes <krhodes1@fullsail.edu>"
+  ],
+  "description": "Portfolio site for Kelly Rhodes",
+  "main": "",
+  "moduleType": [],
+  "keywords": [
+    "Kelly",
+    "Rhodes",
+    "web",
+    "developer"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "bootstrap-sass-official#~3.3.6",
+    "font-awesome": "fontawesome#~4.5.0"
+  }
+}
