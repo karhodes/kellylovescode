@@ -2,14 +2,25 @@
 
 // Imports
 @import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans);
 
 // Styles
+body{
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
 .jumbotron h1 {
-    color: #ED18B7;
+    color: #FF3366;
     font-family: 'Pacifico', cursive;
     text-align: center;
     font-size: 90px;
-    margin-top: 100px;
+    margin-top: 170px;
     //background-color: rgba(0,0,0,0.5);
     width: 100%;
+}
+
+.navbar-nav > li > a {
+	color: #FF3366;
+	font-size: 20px;
+
 }
