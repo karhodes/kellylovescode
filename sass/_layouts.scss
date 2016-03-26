@@ -23,20 +23,16 @@
 }
 
 .jumbotron {
-    position: relative;
-    padding-top:0px;
-    background: url("../../img/laptop_dk.jpg") center center;
-    width: 100%;
-    background-size: cover;
-    overflow: hidden;
     min-height: 650px;
     border-bottom: 20px solid $pink;
     margin-bottom:0px;
 }
 
 footer {
+	border-top: 20px solid $pink;
 	min-height:100px;
 	background-color:$black;
+	padding-top: 20px;
 }
 
 #social_media, #footer_text {
@@ -47,5 +43,13 @@ footer {
 .social_media_icon {
 	padding: 10px;
 	margin: 5px;
+}
+
+hr{
+	border-top: 1px solid $pink;
+}
+
+.circle-pic {
+	border-radius: 50%;
 }
 
