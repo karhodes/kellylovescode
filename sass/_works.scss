@@ -1,9 +1,5 @@
 // Works page specific stuff
 
-.grid_img {
-	width:100%
-}
-
 #grid[data-columns]::before {
 	content: '3 .column.size-1of3';
 }
