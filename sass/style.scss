@@ -19,3 +19,8 @@ $white : #FFFFFF;
 // Page specific elements ***************************************
 @import "home";
 @import "about";
+@import "works";
+
+// Media Queries **********************************************
+// Note salvatore.js does not play well with @import so media queries 
+// for the works page will have to go here
