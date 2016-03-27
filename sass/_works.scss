@@ -1,5 +1,27 @@
 // Works page specific stuff
 
+#works {
+	margin: 20px auto 40px;
+}
+
+.thumbnail {
+	margin-bottom: 0px;
+	border-color: $gray;
+
+	p {
+		margin-top: 10px
+	}
+}
+
+.tech {
+	font-size: 0.9em;
+	color: $white;
+	background-color: $gray;
+	border-radius: 3px;
+	padding: 3px;
+	margin: 0px 1px;
+}
+
 #grid[data-columns]::before {
 	content: '3 .column.size-1of3';
 }
