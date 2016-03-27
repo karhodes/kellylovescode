@@ -1,4 +1,4 @@
-# kellyrhodesdev
+# kellylovescode
 Portfolio site for Kelly Rhodes
 
 View the live site here!  [kellylovescode.com](http://kellylovescode.com)
