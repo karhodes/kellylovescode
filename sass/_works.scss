@@ -1,6 +1,19 @@
 // Works page specific stuff
 
 #works {
+	background: url("../../img/works/post-its.jpg") center center;
+	position: relative;
+    padding-top:0px;
+    width: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+#works-container {
+	margin: 90px 0;
+}
+
+#worksgrid {
 	margin: 20px auto 40px;
 }
 
