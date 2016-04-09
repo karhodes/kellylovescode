@@ -35,12 +35,14 @@
     color: $pink;
 }
 
-.navbar-default .navbar-collapse, .navbar-default .navbar-form, .navbar-collapse, .navbar-form{
-    border-color: $white;
-    background-color: $black;
-}
+
 
 @media screen and (max-width: 767px){
+	.navbar-default .navbar-collapse, .navbar-default .navbar-form, .navbar-collapse, .navbar-form{
+    border-color: $white;
+    background-color: $black;
+	}
+
 	.navbar-default .navbar-nav .open .dropdown-menu>li>a, .navbar-nav .open .dropdown-menu>li>a{
 		color: $pink;
 		background-color: $black;

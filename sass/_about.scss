@@ -16,3 +16,9 @@
 .about-row {
 	padding: 40px 0;
 }
+
+@media screen and (max-width : 767px) {
+	.about-img-container{
+		display:none;
+	}
+}

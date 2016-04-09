@@ -15,6 +15,30 @@
 		<!-- CSS -->
 		<link href="public/css/style.css" rel="stylesheet">
 
+		<!-- Having to include media queries for Salvatore here since it doesn't play well with Sass! -->
+		<style type="text/css">
+			@media screen and (max-width: 480px){
+				#grid[data-columns]::before {
+					content: '1 .column.size-1of1';
+				}
+			}
+			@media screen and (min-width: 481px) and (max-width: 905px) {
+				#grid[data-columns]::before {
+					content: '2 .column.size-1of2';
+				}
+			}
+			@media screen and (min-width: 905px) {
+				#grid[data-columns]::before {
+					content: '3 .column.size-1of3';
+				}
+			}
+
+			.column { float: left; }
+			.size-1of1 { width: 100%; }
+			.size-1of2 { width: 50%; }
+			.size-1of3 { width: 33.333%; }
+		</style>
+
    	
 	<!--[if IE]>
   		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -57,7 +81,7 @@
 				<div class="col-md-3"></div>
 				<div class="col-md-6">
 						<h1>The internet was made for cats</h1>
-						<p>Because of this, there are a few cat-related projects in my portfolio.</p>
+						<p class="center-text">Because of this, there are a few cat-related projects in my portfolio.</p>
 					</div>
 				<div class="col-md-3"></div>
 			</div>
