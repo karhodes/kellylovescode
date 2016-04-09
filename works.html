@@ -25,14 +25,20 @@
 	<body>
 		<header class="jumbotron" id="works">
 			<nav class="navbar navbar-static-top">
-			  <div class="container">			  
+			  <div class="container-fluid">			  
 			    <div class="navbar-header">
-			      <a class="navbar-brand" href="index.html">
-			        <img alt="Kelly Rhodes Logo" src="img/kr_logo.png" width="50" height="50">
-			      </a>
+			    	<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+			    		<span class="sr-only">Toggle navigation</span>
+		                <span class="icon-bar"></span>
+		                <span class="icon-bar"></span>
+		                <span class="icon-bar"></span>
+		            </button>
+			      	<a class="navbar-brand" href="index.html">
+			        	<img alt="Kelly Rhodes Logo" src="img/kr_logo.png" width="50" height="50">
+			      	</a>
 			    </div>
 
-			    <div class="collapse navbar-collapse">
+			    <div class="collapse navbar-collapse" id="navbar-collapse-1">
 	      			<ul class="nav navbar-nav navbar-right">
 	        			<li><a href="works.html">Works</a></li>
 	        			<li><a href="about.html">About</a></li>
@@ -204,9 +210,10 @@
 			</div>	
 		</footer>
 
-		<!-- JS -->
-		<script src="bower_components/jquery/dist/jquery.min.js"></script>
-		<script src="js/salvatore.min.js"></script>
+		<!-- javascript -->
+      	<script src="http://code.jquery.com/jquery-latest.min.js"></script>
+      	<script src="bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+      	<script src="js/salvatore.min.js"></script>
 
 	</body>
 

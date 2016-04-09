@@ -5,8 +5,7 @@
 }
 
 .navbar-fixed-top {
-    min-height: 80px;
-    
+    min-height: 80px; 
 }
 
 .navbar-nav > li > a {
@@ -15,11 +14,49 @@
     line-height: 80px;
 }
 
-@media (max-width: 767px) {
-    .navbar-nav > li > a {
+.navbar-default .navbar-toggle, .navbar-toggle {
+    border-color: $white;
+    background-color: $pink;
+    margin-top: 15px;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus, .navbar-toggle:hover, .navbar-toggle:focus {
+    background-color: $black;
+    color: $black;
+}
+
+.navbar-default .navbar-toggle .icon-bar,  .navbar-toggle .icon-bar{
+  background-color: $black;
+  color: $black;
+}
+
+.navbar-default .navbar-toggle:hover .icon-bar, .navbar-default .navbar-toggle:focus .icon-bar, .navbar-toggle:hover .icon-bar, .navbar-toggle:focus .icon-bar{
+    background-color: $pink;
+    color: $pink;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form, .navbar-collapse, .navbar-form{
+    border-color: $white;
+    background-color: $black;
+}
+
+@media screen and (max-width: 767px){
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a, .navbar-nav .open .dropdown-menu>li>a{
+		color: $pink;
+		background-color: $black;
+	}
+
+	.navbar-default .navbar-nav .open .dropdown-menu>li>a:hover, .navbar-nav .open .dropdown-menu>li>a:hover{
+		color: $pink;
+		background-color: $black;
+	}
+
+	.navbar-nav > li > a {
     line-height: 20px;
     padding-top: 10px;
-    padding-bottom: 10px;}
+    padding-bottom: 10px;
+    text-align: right;
+    }
 }
 
 .jumbotron {
